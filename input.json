@@ -1,0 +1,378 @@
+{
+    "declaration-list" : [
+        {
+            "declared-variable" : "x0",
+            "value" : 1
+          },
+        {
+            "declared-variable" : "x1",
+            "value" : 2
+          },
+        {
+            "declared-variable" : "x2",
+            "value" : {
+                "operator" : "set",
+                "arguments" : [
+                    {
+                        "variable" : "x0"
+                      },
+                    {
+                        "variable" : "x1"
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x3",
+            "value" : {
+                "operator" : "set",
+                "arguments" : [
+                    {
+                        "operator" : "tuple",
+                        "arguments" : [
+                            1,
+                            2
+                          ]
+                      },
+                    {
+                        "operator" : "tuple",
+                        "arguments" : [
+                            3,
+                            4
+                          ]
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x8",
+            "value" : {
+                "operator" : "tuple",
+                "arguments" : [
+                    {
+                        "operator" : "tuple",
+                        "arguments" : [
+                            0,
+                            1
+                          ]
+                      },
+                    {
+                        "operator" : "tuple",
+                        "arguments" : [
+                            3,
+                            {
+                                "operator" : "tuple",
+                                "arguments" : [
+                                    4,
+                                    5
+                                  ]
+                              }
+                          ]
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x9",
+            "value" : {
+                "operator" : "set",
+                "arguments" : [
+                    {
+                        "variable" : "x8"
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x10",
+            "value" : {
+                "operator" : "set",
+                "arguments" : [
+                    {
+                        "operator" : "tuple",
+                        "arguments" : [
+                            0,
+                            4
+                          ]
+                      },
+                    {
+                        "operator" : "tuple",
+                        "arguments" : [
+                            1,
+                            6
+                          ]
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x12",
+            "value" : -1
+          },
+        {
+            "declared-variable" : "x13",
+            "value" : {
+                "operator" : "member",
+                "arguments" : [
+                    {
+                        "variable" : "x12"
+                      },
+                    {
+                        "variable" : "x2"
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x14",
+            "value" : {
+                "operator" : "member",
+                "arguments" : [
+                    {
+                        "variable" : "x0"
+                      },
+                    {
+                        "variable" : "x2"
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x15",
+            "value" : {
+                "operator" : "equal",
+                "arguments" : [
+                    {
+                        "variable" : "x2"
+                      },
+                    {
+                        "operator" : "set",
+                        "arguments" : [
+                            {
+                                "variable" : "x0"
+                              },
+                            {
+                                "variable" : "x1"
+                              },
+                            {
+                                "variable" : "x1"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x16",
+            "value" : 8
+          },
+        {
+            "declared-variable" : "x17",
+            "value" : {
+                "operator" : "set",
+                "arguments" : [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    {
+                        "variable" : "x16"
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x18",
+            "value" : {
+                "operator" : "set",
+                "arguments" : [
+                    {
+                        "variable" : "x17"
+                      },
+                    {
+                        "operator" : "tuple",
+                        "arguments" : [
+                            1,
+                            {
+                                "variable" : "x17"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x19",
+            "value" : {
+                "operator" : "tuple",
+                "arguments" : [
+                    {
+                        "variable" : "x18"
+                      },
+                    {
+                        "variable" : "x17"
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x4",
+            "value" : {
+                "operator" : "is-function",
+                "arguments" : [
+                    {
+                        "variable" : "x2"
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x5",
+            "value" : {
+                "operator" : "is-function",
+                "arguments" : [
+                    {
+                        "variable" : "x3"
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x7",
+            "value" : {
+                "operator" : "apply-function",
+                "arguments" : [
+                    {
+                        "variable" : "x3"
+                      },
+                    {
+                        "variable" : "x0"
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x11",
+            "value" : {
+                "operator" : "apply-function",
+                "arguments" : [
+                    {
+                        "variable" : "x3"
+                      },
+                    {
+                        "variable" : "x1"
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x20",
+            "value" : {
+                "operator" : "union",
+                "arguments" : [
+                    {
+                        "operator" : "set",
+                        "arguments" : [
+                            {
+                                "variable" : "x19"
+                              }
+                          ]
+                      },
+                    {
+                        "variable" : "x18"
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x21",
+            "value" : {
+                "operator" : "set-difference",
+                "arguments" : [
+                    {
+                        "variable" : "x20"
+                      },
+                    {
+                        "operator" : "set",
+                        "arguments" : [
+                            {
+                                "variable" : "x17"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x22",
+            "value" : {
+                "operator" : "intersection",
+                "arguments" : [
+                    {
+                        "variable" : "x20"
+                      },
+                    {
+                        "operator" : "set",
+                        "arguments" : [
+                            {
+                                "variable" : "x17"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x23",
+            "value" : {
+                "operator" : "domain",
+                "arguments" : [
+                    {
+                        "variable" : "x10"
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x24",
+            "value" : {
+                "operator" : "is-function",
+                "arguments" : [
+                    {
+                        "operator" : "inverse",
+                        "arguments" : [
+                            {
+                                "variable" : "x10"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          },
+        {
+            "declared-variable" : "x6",
+            "value" : {
+                "operator" : "equal",
+                "arguments" : [
+                    {
+                        "variable" : "x19"
+                      },
+                    {
+                        "operator" : "tuple",
+                        "arguments" : [
+                            {
+                                "variable" : "x18"
+                              },
+                            {
+                                "variable" : "x17"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  }
