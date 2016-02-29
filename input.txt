@@ -1,0 +1,8 @@
+Let x11 be (1, 2)
+Let x4 be -3
+Let x6 be {1, 2, 3, 4, 5}
+Let x7 be {x6, x11, x10}
+Let x8 be 2
+Let x10 be (x4, x4)
+let x13 be 1 ∈ x6;
+let x2 be {1, 2, 3, 4, 5, (1,2), (-3, -3)} = x7;

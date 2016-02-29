@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Necessary imports
 import json
 
@@ -76,7 +78,18 @@ class Tree:
             # To avoid future complications (as advised in emails)
             
             # Build (and return) a new list of the children's values
-            return [child.getValue(tree,index) for child in self.children]
+            newSet = []
+            
+            for child in self.children:
+            
+                val = child.getValue(tree,index)
+            
+                if val not in newSet:
+                    newSet.append(val)
+                
+            
+            newSet.sort()
+            return newSet
             
         elif self.operator == "equal":
             # Equality test
